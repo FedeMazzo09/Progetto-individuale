@@ -63,8 +63,6 @@ La seguente segmentazione rappresenta il target progettuale previsto, non una ni
 
 Le funzionalità elencate in questa sezione derivano dal documento dei requisiti del progetto. Rappresentano le funzionalità previste e non implicano che siano già tutte implementate.
 
-<img width="2824" height="4194" alt="elenco-completo-delle-funzionalit-e-requisiti" src="https://github.com/user-attachments/assets/00cb20e8-f024-4ccd-97c5-f7a6a3df0297" />
-
 ### 4.1 Registrazione e gestione degli account
 
 - Creazione di un account.
@@ -183,6 +181,8 @@ Gli utenti devono inoltre poter segnalare profili o contenuti non appropriati e 
 ## 5. Casi d'uso UML
 
 I casi d'uso descrivono le interazioni tra gli attori e il sistema. Un caso d'uso comprende i possibili scenari relativi a una funzionalità, incluse le eventuali alternative e situazioni di errore.
+
+<img width="2824" height="4194" alt="elenco-completo-delle-funzionalit-e-requisiti" src="https://github.com/user-attachments/assets/00cb20e8-f024-4ccd-97c5-f7a6a3df0297" />
 
 ### 5.1 Attori principali
 
