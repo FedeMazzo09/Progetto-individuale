@@ -66,7 +66,6 @@ La seguente segmentazione rappresenta il target progettuale previsto, non una ni
 ## 4. Funzionalità dell'applicazione
 
 Le funzionalità elencate in questa sezione derivano dal documento dei requisiti del progetto. Rappresentano le funzionalità previste e non implicano che siano già tutte implementate.
-![Elenco completo delle funzionalità e dei requisiti](./images/elenco-completo-delle-funzionalit-e-requisiti.png)
 
 ### 4.1 Registrazione e gestione degli account
 
