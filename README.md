@@ -59,7 +59,6 @@ La seguente segmentazione rappresenta il target progettuale previsto, non una ni
 | Rider intermedi ed esperti | Individuare attività e strutture coerenti con i propri obiettivi | Ricerca per disciplina, disponibilità e compatibilità |
 | Maneggi e centri equestri | Far conoscere la propria struttura e le attività disponibili | Profilo della struttura e pubblicazione di cavalli e lezioni |
 | Istruttori | Rendere visibili le proprie qualifiche e competenze | Gestione delle informazioni tramite il profilo del maneggio |
-| Amministratori della piattaforma | Mantenere organizzati e controllati profili e contenuti | Gestione degli account, verifiche e segnalazioni |
 
 **Nicchia da approfondire:** Rider che cercano lezioni o cavalli adatti al proprio livello e maneggi che vogliono rendere più visibili le proprie offerte. Per confermare questo posizionamento sarà necessario confrontarlo con le soluzioni già presenti sul mercato e con le esigenze degli utenti.
 
