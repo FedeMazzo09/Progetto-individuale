@@ -60,8 +60,6 @@ La seguente segmentazione rappresenta il target progettuale previsto, non una ni
 | Maneggi e centri equestri | Far conoscere la propria struttura e le attività disponibili | Profilo della struttura e pubblicazione di cavalli e lezioni |
 | Istruttori | Rendere visibili le proprie qualifiche e competenze | Gestione delle informazioni tramite il profilo del maneggio |
 
-**Nicchia da approfondire:** Rider che cercano lezioni o cavalli adatti al proprio livello e maneggi che vogliono rendere più visibili le proprie offerte. Per confermare questo posizionamento sarà necessario confrontarlo con le soluzioni già presenti sul mercato e con le esigenze degli utenti.
-
 ## 4. Funzionalità dell'applicazione
 
 Le funzionalità elencate in questa sezione derivano dal documento dei requisiti del progetto. Rappresentano le funzionalità previste e non implicano che siano già tutte implementate.
