@@ -97,8 +97,6 @@ Le funzionalità elencate in questa sezione derivano dal documento dei requisiti
 - Gestione delle certificazioni e delle scadenze.
 - Visualizzazione dello stato di verifica del profilo.
 
-**Nota progettuale:** nel documento dei requisiti è indicato che l'istruttore deve essere gestito dal maneggio e non disporre necessariamente di una gestione autonoma del proprio profilo. Questa scelta deve essere mantenuta coerente anche nei diagrammi UML e nell'implementazione.
-
 ### 4.4 Ricerca dei maneggi
 
 - Ricerca per località.
