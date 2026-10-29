@@ -67,7 +67,7 @@ La seguente segmentazione rappresenta il target progettuale previsto, non una ni
 
 Le funzionalità elencate in questa sezione derivano dal documento dei requisiti del progetto. Rappresentano le funzionalità previste e non implicano che siano già tutte implementate.
 
-![Elenco completo delle funzionalità e dei requisiti](./images/elenco-completo-delle-funzionalit-e-requisiti.png)
+<img width="2824" height="4194" alt="elenco-completo-delle-funzionalit-e-requisiti" src="https://github.com/user-attachments/assets/00cb20e8-f024-4ccd-97c5-f7a6a3df0297" />
 
 ### 4.1 Registrazione e gestione degli account
 
