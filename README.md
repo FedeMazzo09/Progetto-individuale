@@ -20,7 +20,6 @@ L'obiettivo è offrire un unico spazio in cui i Rider possano cercare e confront
 - [7. Requisiti non funzionali e di dominio](#7-requisiti-non-funzionali-e-di-dominio)
 - [8. Analisi dei competitor](#8-analisi-dei-competitor)
 - [9. Struttura del repository](#9-struttura-del-repository)
-- [10. Documentazione di riferimento](#10-documentazione-di-riferimento)
 
 ## 1. Obiettivi del progetto
 
@@ -225,7 +224,7 @@ L'elenco costituisce una sintesi iniziale. I singoli casi d'uso dovranno essere 
 
 ### 5.3 Diagrammi UML
 
-I diagrammi UML devono rappresentare gli attori, i casi d'uso e le relazioni tra essi. La documentazione dei diagrammi sarà conservata nel repository, separatamente dall'elenco completo dei requisiti.
+*ANCORA DA DEFINIRE*
 
 ## 6. Stato di sviluppo delle funzionalità
 
@@ -291,76 +290,40 @@ La documentazione necessaria può variare in base all'attività e alla situazion
 
 ## 8. Analisi dei competitor
 
-L'analisi della concorrenza serve a confrontare EquiNex con le soluzioni già disponibili, individuando funzionalità comuni, limiti e possibili elementi distintivi.
+EquiNex si propone di semplificare la ricerca di cavalli, maneggi, centri equestri e lezioni, distinguendosi dagli strumenti generalisti già utilizzati dagli utenti.
 
-Questa sezione è da completare con una ricerca documentata: nei materiali forniti non è presente un elenco verificato di competitor.
+### 8.1 Google Maps e Google Search
 
-Per ogni competitor individuato, la ricerca dovrebbe raccogliere:
+Google Maps e Google Search permettono di trovare maneggi e centri equestri, consultare informazioni sulle strutture e individuare la loro posizione.
 
-| Elemento | Cosa analizzare |
-|---|---|
-| Nome e link | Nome della piattaforma e sito ufficiale |
-| Target | Cavalieri, maneggi, istruttori o altri utenti |
-| Funzionalità | Ricerca, prenotazione, annunci, profili, contatti |
-| Filtri | Livello, disciplina, località, disponibilità |
-| Punti di forza | Funzioni particolarmente utili o ben realizzate |
-| Limiti | Funzioni mancanti o aspetti migliorabili, verificati tramite fonti |
-| Differenze rispetto a EquiNex | Elementi che distinguono le due soluzioni |
+Questi strumenti rappresentano un'alternativa per la ricerca iniziale, ma EquiNex si concentra specificamente sul settore equestre, con l'obiettivo di permettere ai Rider di cercare e confrontare le opportunità in base alle proprie esigenze.
 
-### 8.1 Possibili elementi distintivi
+### 8.2 Social Network
 
-EquiNex intende differenziarsi attraverso la combinazione di:
+I social network, come Instagram e Facebook, vengono utilizzati anche da maneggi, istruttori e cavalieri per condividere informazioni, pubblicare contenuti e mantenersi in contatto.
 
-- Ricerca di maneggi, cavalli e lezioni in un'unica piattaforma.
-- Filtri basati sul livello, sulle discipline e sulle disponibilità.
-- Valutazione della compatibilità tra Rider e offerte.
-- Gestione centralizzata delle informazioni e della documentazione.
-- Strumenti per facilitare i contatti tra Rider e maneggi.
+EquiNex si differenzia perché nasce con uno scopo specifico: organizzare le informazioni relative a maneggi, cavalli e lezioni, facilitando la ricerca attraverso filtri dedicati e criteri di compatibilità.
 
-Questi elementi rappresentano la proposta progettuale di EquiNex. Per considerarli vantaggi competitivi effettivi sarà necessario confrontarli con le funzionalità reali dei servizi concorrenti.
+### 8.3 Elementi distintivi di EquiNex
+
+Rispetto a questi strumenti, EquiNex punta a offrire:
+
+- **Ricerca specializzata:** maneggi, cavalli e lezioni in un'unica piattaforma.
+- **Filtri mirati:** ricerca in base a livello di esperienza, disciplina e disponibilità.
+- **Compatibilità:** individuazione delle opportunità più adatte alle esigenze del Rider.
+- **Informazioni organizzate:** consultazione delle caratteristiche delle strutture, dei cavalli e delle lezioni.
+- **Contatti diretti:** possibilità di inviare e gestire richieste tra Rider e maneggi.
+
+L'obiettivo è ridurre la necessità di consultare fonti diverse e rendere la ricerca di opportunità equestri più semplice e mirata.
 
 ## 9. Struttura del repository
-
-La struttura seguente è una proposta organizzativa da adattare ai file effettivamente presenti nel repository.
 
 ```text
 EquiNex/
 ├── README.md
-├── docs/
-│   ├── requirements/
-│   │   ├── specifica-requisiti.pdf
-│   │   ├── elenco-funzionalita.xlsx
-│   │   └── classificazione-requisiti.txt
-│   ├── uml/
-│   │   └── use-case-diagram.png
-│   └── competitors/
-│       └── analisi-competitor.md
-└── src/
-    └── ...
+├── image/
+│   └── Elenco completo delle funzionalità e requisiti.png
+└── Elenco completo delle funzionalità e requisiti.xlsx
 ```
 
-Il file `README.md` presenta il progetto e rimanda alla documentazione di dettaglio. Il foglio Excel contiene l'elenco completo dei requisiti, mentre la cartella `uml/` raccoglie i diagrammi dei casi d'uso. La cartella `competitors/` può essere utilizzata per conservare le fonti e i risultati dell'analisi della concorrenza.
 
-I nomi e i percorsi indicati sono esemplificativi e devono essere allineati alla struttura reale del repository.
-
-## 10. Documentazione di riferimento
-
-La progettazione di EquiNex si basa sui seguenti materiali:
-
-| Documento | Utilizzo |
-|---|---|
-| `Elenco completo delle funzionalità e requisiti.xlsx` | Elenco dei requisiti, classificazione F/NF/D e User Story |
-| `SpecificaDeiRequisiti.pdf` | Riferimento teorico per la definizione dei requisiti e dei casi d'uso |
-| `Classificatione-per-tipologia.txt` | Criteri per distinguere requisiti funzionali, non funzionali e di dominio |
-| `Link-how-to-create-UML-Use-Case.txt` | Riferimento per la creazione dei diagrammi UML |
-
-Per i diagrammi UML è inoltre disponibile il riferimento indicato nel file dedicato: [yUML — Use Case Diagram Samples](https://yuml.me/diagram/scruffy/usecase/samples).
-
----
-
-## Attività da completare
-
-- [ ] Verificare lo stato reale di ogni funzionalità confrontando i requisiti con il codice e i test.
-- [ ] Individuare competitor reali e documentare le differenze con fonti verificabili.
-- [ ] Allineare la struttura descritta nel README con i percorsi effettivi del repository.
-- [ ] Completare i diagrammi UML e le descrizioni dei singoli casi d'uso.
