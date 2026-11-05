@@ -16,7 +16,7 @@ L'obiettivo è offrire un unico spazio in cui i Rider possano cercare e confront
 - [3. Nicchia di mercato e utenti target](#3-nicchia-di-mercato-e-utenti-target)
 - [4. Funzionalità dell'applicazione](#4-funzionalità-dellapplicazione)
 - [5. Casi d'uso UML](#5-casi-duso-uml)
-- [6. Stato di sviluppo delle funzionalità](#6-stato-di-sviluppo-delle-funzionalità)
+- [6. User Story](#6-user-story)
 - [7. Requisiti non funzionali e di dominio](#7-requisiti-non-funzionali-e-di-dominio)
 - [8. Analisi dei competitor](#8-analisi-dei-competitor)
 - [9. Struttura del repository](#9-struttura-del-repository)
