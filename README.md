@@ -146,7 +146,7 @@ I maneggi devono poter:
 - Inserire e aggiornare gli orari disponibili.
 - Mantenere aggiornate le informazioni pubblicate.
 
-### 4.11 Segnalazioni e amministrazione
+### 4.10 Segnalazioni e amministrazione
 
 Le funzionalità amministrative previste comprendono:
 
