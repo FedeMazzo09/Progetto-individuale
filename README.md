@@ -1,4 +1,3 @@
-
 # Progetto individuale StartUp — EquiNex
 
 *Where Every Rider Finds Their Perfect Equine Connection.*
@@ -31,8 +30,7 @@ Gli obiettivi principali sono:
 - Permettere di individuare attività compatibili con il livello di esperienza, le discipline praticate, le preferenze e le disponibilità.
 - Offrire ai maneggi uno spazio per pubblicare e aggiornare le proprie offerte.
 - Agevolare i contatti tra Rider e strutture equestri.
-- Centralizzare le informazioni e la documentazione rilevante per i profili.
-- Prevedere strumenti di verifica dei profili e di gestione delle segnalazioni.
+- Centralizzare le informazioni rilevanti per i profili.
 
 ## 2. Problema e soluzione proposta
 
@@ -81,7 +79,6 @@ Le funzionalità elencate in questa sezione derivano dal documento dei requisiti
 - Inserimento di esigenze e preferenze.
 - Gestione delle disponibilità.
 - Caricamento e aggiornamento della documentazione pertinente.
-- Visualizzazione dello stato dei documenti e delle relative scadenze.
 
 ### 4.3 Profilo Maneggio e gestione degli istruttori
 
@@ -92,7 +89,6 @@ Le funzionalità elencate in questa sezione derivano dal documento dei requisiti
 - Caricamento della documentazione amministrativa e assicurativa.
 - Gestione dell'eventuale affiliazione FISE.
 - Gestione delle certificazioni e delle scadenze.
-- Visualizzazione dello stato di verifica del profilo.
 
 ### 4.4 Ricerca dei maneggi
 
@@ -101,7 +97,6 @@ Le funzionalità elencate in questa sezione derivano dal documento dei requisiti
 - Consultazione delle informazioni della struttura.
 - Visualizzazione delle discipline offerte.
 - Consultazione dei contatti.
-- Visualizzazione dello stato di verifica del profilo.
 
 ### 4.5 Ricerca dei cavalli
 
@@ -159,8 +154,6 @@ Le funzionalità amministrative previste comprendono:
 - Gestione dei maneggi.
 - Controllo delle segnalazioni.
 - Gestione dei contenuti pubblicati.
-- Verifica della documentazione caricata.
-- Gestione dello stato di verifica degli account.
 
 Gli utenti devono inoltre poter segnalare profili o contenuti non appropriati e informazioni errate.
 
@@ -177,7 +170,7 @@ I casi d'uso descrivono le interazioni tra gli attori e il sistema. Un caso d'us
 | Visitatore | Esplora le funzionalità pubbliche e può registrarsi |
 | Rider | Gestisce il profilo, cerca maneggi, cavalli e lezioni, salva preferiti e invia richieste |
 | Maneggio | Gestisce il profilo della struttura, gli istruttori, i cavalli, le lezioni e le disponibilità |
-| Amministratore | Gestisce utenti, contenuti, segnalazioni e verifiche |
+| Amministratore | Gestisce utenti, contenuti e segnalazioni |
 
 L'istruttore è considerato nella gestione del profilo del maneggio, secondo le note presenti nel documento dei requisiti. L'eventuale definizione di un attore autonomo dovrà essere coerente con la scelta progettuale definitiva.
 
@@ -204,7 +197,6 @@ L'istruttore è considerato nella gestione del profilo del maneggio, secondo le 
 | UC-17 | Gestire le notifiche | Utente registrato |
 | UC-18 | Segnalare un contenuto | Utente registrato |
 | UC-19 | Gestire utenti e contenuti | Amministratore |
-| UC-20 | Verificare la documentazione | Amministratore |
 
 L'elenco costituisce una sintesi iniziale. I singoli casi d'uso dovranno essere descritti in modo più dettagliato, indicando precondizioni, flusso principale, alternative e postcondizioni.
 
@@ -235,7 +227,7 @@ Le entità rappresentano le diverse tipologie di utenti che interagiscono con Eq
 | Utente | Rappresenta un utente generico della piattaforma, indipendentemente dal ruolo. |
 | Rider | È il cavaliere che utilizza l'applicazione per cercare maneggi, cavalli e lezioni compatibili con le proprie esigenze. |
 | Maneggio | È la struttura equestre che gestisce il proprio profilo, pubblica cavalli e lezioni e riceve richieste dai Rider. |
-| Amministratore | È il soggetto incaricato della gestione degli utenti, dei contenuti, delle segnalazioni e della verifica della documentazione. |
+| Amministratore | È il soggetto incaricato della gestione degli utenti, dei contenuti e delle segnalazioni. |
 
 **Nota:** l'istruttore viene gestito attraverso il profilo del Maneggio e non costituisce un'entità autonoma per la gestione dell'account, secondo le indicazioni presenti nel documento dei requisiti.
 
@@ -264,8 +256,6 @@ Di seguito alcuni esempi tratti dai requisiti funzionali del progetto.
 
 **Amministratore**
 - Come Amministratore, voglio gestire i contenuti pubblicati, così da mantenere la qualità della piattaforma.
-- Come Amministratore, voglio verificare la documentazione caricata, così da controllare i profili degli utenti.
-- Come Amministratore, voglio gestire lo stato di verifica degli account, così da indicare quali profili sono verificati.
 
 ### 6.4 Collegamento tra User Story e requisiti
 
@@ -283,7 +273,6 @@ Tra i principali requisiti individuati nel documento figurano:
 
 - **Sicurezza:** protezione degli account e gestione sicura delle credenziali.
 - **Privacy:** protezione dei dati personali e limitazione dell'accesso ai documenti sensibili.
-- **Autorizzazioni:** accesso alle funzioni amministrative e alla documentazione soltanto da parte degli utenti autorizzati.
 - **Affidabilità:** salvataggio corretto dei dati e mantenimento delle informazioni pubblicate.
 - **Prestazioni:** restituzione dei risultati di ricerca in tempi brevi.
 - **Usabilità:** interfaccia e filtri semplici da comprendere e utilizzare.
@@ -304,7 +293,6 @@ Tra gli aspetti considerati nel progetto:
 - Documentazione amministrativa e assicurativa delle strutture.
 - Qualifiche e certificazioni degli istruttori.
 - Tesseramento e autorizzazioni FISE, quando pertinenti.
-- Gestione delle scadenze e verifica dei documenti.
 
 La documentazione necessaria può variare in base all'attività e alla situazione specifica. I requisiti del progetto non sostituiscono quindi la verifica delle norme e degli obblighi effettivamente applicabili.
 
@@ -344,6 +332,3 @@ EquiNex/
 ├── image/
 │   └── Elenco completo delle funzionalità e requisiti.png
 └── Elenco completo delle funzionalità e requisiti.xlsx
-```
-
-
