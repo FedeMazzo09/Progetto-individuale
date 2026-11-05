@@ -151,20 +151,6 @@ I maneggi devono poter:
 - Inserire e aggiornare gli orari disponibili.
 - Mantenere aggiornate le informazioni pubblicate.
 
-### 4.10 Documentazione e verifiche
-
-La gestione documentale prevista comprende, quando pertinente:
-
-- Certificati di idoneità sportiva.
-- Documentazione amministrativa della struttura, inclusa la SCIA quando richiesta.
-- Documentazione assicurativa.
-- Qualifiche e certificazioni degli istruttori.
-- Tesseramento, affiliazione e autorizzazioni FISE, quando pertinenti.
-- Date di scadenza e notifiche per i documenti in scadenza.
-- Indicazione dello stato di verifica dei profili e della documentazione.
-
-I documenti personali e sensibili devono essere accessibili soltanto agli utenti autorizzati e gestiti in modo sicuro.
-
 ### 4.11 Segnalazioni e amministrazione
 
 Le funzionalità amministrative previste comprendono:
