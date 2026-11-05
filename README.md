@@ -222,32 +222,70 @@ L'istruttore è considerato nella gestione del profilo del maneggio, secondo le 
 
 L'elenco costituisce una sintesi iniziale. I singoli casi d'uso dovranno essere descritti in modo più dettagliato, indicando precondizioni, flusso principale, alternative e postcondizioni.
 
-## 6. Stato di sviluppo delle funzionalità
+## 6. User Story
 
-Per distinguere ciò che è previsto da ciò che è realmente disponibile, ogni funzionalità dovrà avere uno stato di avanzamento verificabile.
+Le User Story sono brevi descrizioni delle funzionalità dell'applicazione dal punto di vista degli utenti. Permettono di comprendere chi utilizzerà una determinata funzionalità, cosa desidera fare e quale beneficio vuole ottenere.
 
-| Stato | Significato |
+Nel progetto EquiNex, ogni User Story segue una struttura standard:
+
+**Come [entità], voglio [funzionalità], così da [obiettivo].**
+
+### 6.1 Struttura di una User Story
+
+Ogni User Story è composta da tre elementi:
+
+| Elemento | Descrizione | Esempio |
+|---|---|---|
+| Entità | Identifica il soggetto che utilizza la funzionalità | Rider |
+| Funzionalità | Descrive ciò che l'entità desidera fare | Cercare maneggi per località |
+| Obiettivo | Spiega il motivo e il beneficio dell'azione | Trovare strutture vicine |
+
+### 6.2 Entità coinvolte
+
+Le entità rappresentano le diverse tipologie di utenti che interagiscono con EquiNex.
+
+| Entità | Descrizione |
 |---|---|
-| Da implementare | La funzionalità è prevista, ma non è ancora stata realizzata |
-| Implementata, da testare | Il codice è presente, ma non è stata completata la verifica |
-| Implementata e verificata | La funzionalità è stata provata e soddisfa il requisito |
-| Implementata parzialmente | È disponibile soltanto una parte del comportamento previsto |
-| Non prevista | La funzionalità è stata esclusa dal progetto |
+| Utente | Rappresenta un utente generico della piattaforma, indipendentemente dal ruolo. |
+| Rider | È il cavaliere che utilizza l'applicazione per cercare maneggi, cavalli e lezioni compatibili con le proprie esigenze. |
+| Maneggio | È la struttura equestre che gestisce il proprio profilo, pubblica cavalli e lezioni e riceve richieste dai Rider. |
+| Amministratore | È il soggetto incaricato della gestione degli utenti, dei contenuti, delle segnalazioni e della verifica della documentazione. |
 
-**Importante:** le colonne `F`, `NF` e `D` presenti nel foglio Excel servono a classificare i requisiti come funzionali, non funzionali o di dominio. Non indicano se una funzionalità sia stata implementata.
+**Nota:** l'istruttore viene gestito attraverso il profilo del Maneggio e non costituisce un'entità autonoma per la gestione dell'account, secondo le indicazioni presenti nel documento dei requisiti.
 
-Di conseguenza, lo stato effettivo di ciascuna funzionalità dovrà essere verificato confrontando i requisiti con il codice e con i test dell'applicazione.
+### 6.3 Esempi di User Story
 
-Per facilitare questa attività, si consiglia di mantenere una tabella di tracciabilità con almeno questi campi:
+Di seguito alcuni esempi tratti dai requisiti funzionali del progetto.
 
-| Campo | Descrizione |
-|---|---|
-| ID | Codice univoco del requisito |
-| Requisito | Descrizione della funzionalità o del vincolo |
-| Tipologia | Funzionale, non funzionale o di dominio |
-| Stato | Avanzamento effettivo |
-| Test | Verifica eseguita o ancora necessaria |
-| Note | Problemi, dipendenze o aspetti da completare |
+**Utente**
+- Come Utente, voglio creare un account, così da poter utilizzare EquiNex.
+- Come Utente, voglio effettuare il login con email e password, così da accedere al mio account.
+- Come Utente, voglio modificare i miei dati personali, così da mantenere aggiornato il mio account.
+
+**Rider**
+- Come Rider, voglio indicare il mio livello di esperienza, così da trovare attività adatte a me.
+- Come Rider, voglio cercare maneggi per località, così da trovare strutture vicine o nella zona desiderata.
+- Come Rider, voglio cercare i cavalli disponibili, così da trovare un cavallo adatto alle mie esigenze.
+- Come Rider, voglio filtrare i risultati per disciplina, così da trovare le attività che mi interessano.
+- Come Rider, voglio salvare i maneggi interessanti, così da poterli ritrovare facilmente.
+
+**Maneggio**
+- Come Maneggio, voglio inserire i dati della struttura, così da creare il mio profilo.
+- Come Maneggio, voglio indicare le discipline praticate, così da mostrare le attività offerte.
+- Come Maneggio, voglio pubblicare i cavalli disponibili, così da permettere ai Rider di trovarli.
+- Come Maneggio, voglio pubblicare le lezioni disponibili, così da permettere ai Rider di trovarle.
+- Come Maneggio, voglio gestire le mie disponibilità, così da mostrare ai Rider gli orari disponibili.
+
+**Amministratore**
+- Come Amministratore, voglio gestire i contenuti pubblicati, così da mantenere la qualità della piattaforma.
+- Come Amministratore, voglio verificare la documentazione caricata, così da controllare i profili degli utenti.
+- Come Amministratore, voglio gestire lo stato di verifica degli account, così da indicare quali profili sono verificati.
+
+### 6.4 Collegamento tra User Story e requisiti
+
+Le User Story sono collegate ai requisiti funzionali presenti nel documento Excel. Ogni requisito funzionale descrive una specifica funzionalità e, quando previsto, è accompagnato dalla relativa User Story.
+
+Questa relazione permette di comprendere a quale esigenza dell'utente risponde ciascuna funzionalità e di mantenere un collegamento tra analisi dei requisiti, progettazione UML e sviluppo dell'applicazione.
 
 ## 7. Requisiti non funzionali e di dominio
 
