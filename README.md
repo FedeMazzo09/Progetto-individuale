@@ -222,10 +222,6 @@ L'istruttore è considerato nella gestione del profilo del maneggio, secondo le 
 
 L'elenco costituisce una sintesi iniziale. I singoli casi d'uso dovranno essere descritti in modo più dettagliato, indicando precondizioni, flusso principale, alternative e postcondizioni.
 
-### 5.3 Diagrammi UML
-
-*ANCORA DA DEFINIRE*
-
 ## 6. Stato di sviluppo delle funzionalità
 
 Per distinguere ciò che è previsto da ciò che è realmente disponibile, ogni funzionalità dovrà avere uno stato di avanzamento verificabile.
