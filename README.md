@@ -263,6 +263,10 @@ Le User Story sono collegate ai requisiti funzionali presenti nel documento Exce
 
 Questa relazione permette di comprendere a quale esigenza dell'utente risponde ciascuna funzionalità e di mantenere un collegamento tra analisi dei requisiti, progettazione UML e sviluppo dell'applicazione.
 
+### 6.5 Diagramma E/R
+
+![Collegamento tra User Story e requisiti](images/IMG_0214.png)
+
 ## 7. Requisiti non funzionali e di dominio
 
 Oltre alle funzionalità visibili all'utente, EquiNex deve rispettare requisiti relativi alla sicurezza, all'affidabilità e alle caratteristiche specifiche del settore equestre.
