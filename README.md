@@ -1,6 +1,6 @@
 # Progetto individuale StartUp — EquiNex
 
-*Where Every Rider Finds Their Perfect Equine Connection.*
+*Where every Rider finds their perfect Equine connection.*
 
 EquiNex è un'applicazione progettata per mettere in contatto cavalieri (*Rider*), maneggi e istruttori, aiutando gli utenti a trovare il cavallo, il centro equestre o la lezione più adatti alle proprie esigenze, al proprio livello di esperienza e ai propri obiettivi.
 
