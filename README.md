@@ -161,7 +161,7 @@ Gli utenti devono inoltre poter segnalare profili o contenuti non appropriati e 
 
 I casi d'uso descrivono le interazioni tra gli attori e il sistema. Un caso d'uso comprende i possibili scenari relativi a una funzionalità, incluse le eventuali alternative e situazioni di errore.
 
-<img width="2824" height="4194" alt="elenco-completo-delle-funzionalit-e-requisiti" src="https://github.com/user-attachments/assets/00cb20e8-f024-4ccd-97c5-f7a6a3df0297" />
+![Grafico Use Case](images/elenco-completo-delle-funzionalit-e-requisiti.png)
 
 ### 5.1 Attori principali
 
